@@ -1,0 +1,20 @@
+[
+    {
+        "username": "Komiljon",
+        "password": "36a9f9bee92bc3cbb0852d202a42d65550a3422331ae712b341b136d0e3b1a0f",
+        "userId": 2,
+        "img": "1649245263517oguz-yagiz-kara-pUJPq5nCysM-unsplash.jpg"
+    },
+    {
+        "username": "Alijon",
+        "password": "2e19ef22a4dfd9b3249cff86308e3373ea1f00b4f3824e466005bf98248dbba7",
+        "userId": 3,
+        "img": "1649247223992oguz-yagiz-kara-YiN2ac0SQVk-unsplash.jpg"
+    },
+    {
+        "username": "Abror",
+        "password": "9bc10b6cfc04479b36f07b10585835d11c33390480f30843961ff815843f1476",
+        "userId": 4,
+        "img": "1649305188223download.png"
+    }
+]

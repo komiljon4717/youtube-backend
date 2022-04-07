@@ -5,8 +5,8 @@ const path = require('path')
 
 const GET = (req, res) => {
     try {
-        let { token } = req.headers
-        let userId = verify(token).userId
+        // let { token } = req.headers
+        // let userId = verify(token).userId
 
         const users = req.readFile('users') || []
         const videos = req.readFile('videos') || []
@@ -23,12 +23,14 @@ const GET = (req, res) => {
         })
         
         let adminImage = {}
-        for (const user of users) {
-            if (user.userId == userId) {
-                adminImage ={img: user.img}
-            }   
-
-        }
+        // if (userId) {
+        //     for (const user of users) {
+        //         if (user.userId == userId) {
+        //             adminImage ={img: user.img}
+        //         }   
+        //     }
+        // }
+        
         return res.status(201).json({
             status: 201,
             message: 'successfully get',

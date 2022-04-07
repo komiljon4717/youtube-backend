@@ -73,7 +73,7 @@ const GET = (req, res) => {
         const videos = req.readFile('videos') || []
 
         let one = videos.filter(el => el.userId == userId)
-        console.log(one);
+        // console.log(one);
         
         one.map(el => {
             el.video =  "/videos/" + el.video
